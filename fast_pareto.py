@@ -4,7 +4,7 @@ def find_pareto_points(
     points: np.ndarray,
     maximize: np.ndarray | None = None
 ) -> np.ndarray:
-    """Find Pareto frontier of a given array of points.
+    """Find Pareto front of a given array of points.
 
     Args:
         points: An M x N array of points to evaluate for Pareto-optimality.
